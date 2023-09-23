@@ -2,7 +2,7 @@
 
 int main() {
 	int cel, fah, kel, opcao, t1;
-	printf("Qual conversao voce deseja fazer?\n digite o numero referente a opcao desejada:\n 1 - Celsius para Fahrenheit\n 2 - Fahrenheit para Celsius\n 3 - Celsius para kelvin \n 4 - Kelvin para Celsius \n 5 - Fahrenheit para Kelvin \n 6 - Kelvin para Fahrenheit\n");
+	printf("Qual conversao voce deseja fazer?\n 1 - Celsius para Fahrenheit\n 2 - Fahrenheit para Celsius\n 3 - Celsius para kelvin \n 4 - Kelvin para Celsius \n 5 - Fahrenheit para Kelvin \n 6 - Kelvin para Fahrenheit\ndigite o numero referente a opcao desejada:\n");
 	scanf("%d", &opcao);
 	
 	printf("Digite a temperatura:\n");
